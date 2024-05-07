@@ -28,7 +28,7 @@ def process_query(query_text):
     model = ChatOpenAI()
     response_text = model.predict(prompt)
     sources = [doc.metadata.get("source", None) for doc, _score in results]
-    formatted_response = f"Response: {response_text}"#\nSources: {sources}"
+    formatted_response = f"Response: {response_text}\nSources: {sources}"
     return formatted_response
 
 # If you still need to allow command line usage:
