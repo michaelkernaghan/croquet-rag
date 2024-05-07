@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Soft sky blue background */
+    color: #333; /* Dark grey text for better readability */
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+h1 {
+    color: #2a622a; /* Dark green, reminiscent of croquet lawns */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #ccc; /* Light grey border */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #367c39; /* Darker green on hover */
+}
+
+#response-area {
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Allows scrolling */
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555; /* Darker text in the response area for contrast */
+}
