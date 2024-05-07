@@ -138,3 +138,6 @@ venv.bak/
 
 # Others
 *.sqlite
+
+# Local Netlify folder
+.netlify

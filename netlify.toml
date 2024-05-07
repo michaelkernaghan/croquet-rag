@@ -1,0 +1,9 @@
+[build]
+command = "pip install -r requirements.txt"
+functions = "netlify/functions"  # Ensure this is correct
+publish = "./static/"             # Only needed if you have static files
+
+[[redirects]]
+from = "/*"
+to = "/.netlify/functions/flask_function"
+status = 200
